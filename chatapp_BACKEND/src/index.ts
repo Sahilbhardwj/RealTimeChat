@@ -18,6 +18,10 @@ ws.on("connection",(socket)=>{
        
       // if user wants to connect to a room
       if(parsedmessage.type=="join"){
+        const joinedconnection=allSockets.find(x=>x.socket==socket)
+          if(joinedconnection){
+              allSockets = allSockets.filter(socket => socket !== joinedconnection)
+            }
         allSockets.push({
           socket, roomid:parsedmessage.payload.roomid
         })
