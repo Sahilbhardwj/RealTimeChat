@@ -53,26 +53,26 @@ npm run dev
 ```
 Starts the frontend React app using your dev script
 ### 🛠️ Usage:
-1.Open the frontend in your browser.
-2.Click the Create/Join button.
-3.Enter a room ID (can be anything).
-4.Start chatting. Anyone in the same room will see your messages instantly.
+- Open the frontend in your browser.
+- Click the Create/Join button.
+- Enter a room ID (can be anything).
+- Start chatting. Anyone in the same room will see your messages instantly.
 
 ### 📦 Tech Stack
 
 ### Backend
-1.Node.js
-2.WebSocket (ws)
-3.TypeScript
+- Node.js
+- WebSocket (ws)
+- TypeScript
 
 ### Frontend
-1.React
-2.TypeScript
-3.WebSocket API
-4.TailwindCSS 
+- React
+- TypeScript
+- WebSocket API
+- TailwindCSS 
 
 ### ✨ Features
-1.Real-time messaging using WebSocket
-2.Dynamic room-based communication
-3.Clean and minimalist UI
-4.Fully written in TypeScript
+- Real-time messaging using WebSocket
+- Dynamic room-based communication
+- Clean and minimalist UI
+- Fully written in TypeScript
